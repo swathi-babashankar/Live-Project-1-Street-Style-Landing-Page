@@ -1,0 +1,181 @@
+
+/* positioning the image and list items*/
+      
+      html,
+      body {
+        width: 790px;
+        height: 444.375px;
+      }
+      body {
+        background-image: url("/assets/start.png") no-repeat;
+        background-position: 40% 80%;
+        background-size: 50px;
+      }
+
+      .navbar-container {
+        position: absolute;
+        display: inline;
+        left: 40px;
+      }
+
+      /*logo section*/
+      nav div img {
+        block-size: 30px;
+        margin-top: 35px;
+        margin-left: 10px;
+      }
+
+      nav {
+        display: inline;
+      }
+
+      li:first-child {
+        font-weight: bold;
+      }
+
+      li:hover {
+        cursor: pointer;
+        text-decoration: underline #1f1f1f;
+      }
+
+      li {
+        display: inline;
+        text-align: center;
+        font-family: "orbitron";
+        font-size: 13px;
+        color: black;
+        position: relative;
+        top: 15px;
+        margin-left: 170px;
+        padding: 0px;
+      }
+      .search-icon {
+        position: absolute;
+        right: -180px;
+        top: 45px;
+      }
+
+      div svg {
+        width: 16px;
+        height: 16px;
+      }
+
+      .nav-button {
+        position: absolute;
+        right: -280px;
+        top: 40px;
+        border-radius: 0.5em;
+        padding: 0.1em 1.4em;
+        border: 2px solid black;
+        font-size: 13px;
+      }
+    
+      .square {
+        position: relative;
+        width: 20vh;
+        height: 20vh;
+        top: 210px;
+        bottom: -90px;
+        margin-left: 10vh;
+      }
+
+      .star {
+        padding: 0;
+        display: flex;
+        box-sizing: border-box;
+        position: absolute;
+        height: 32px;
+        width: 32;
+        top: 125px;
+        right: 80px;
+        border: 10px;
+      }
+
+      .globe {
+        height: 40px;
+        width: 40px;
+        display: flex;
+        box-sizing: border-box;
+        position: absolute;
+        right: 595px;
+        top: 165px;
+      }
+      svg {
+        width: 20;
+        height: 20;
+      }
+
+      .person-image {
+        position: absolute;
+        width: 42vh;
+        height: 48vh;
+        top: 170px;
+        margin-left: 50px;
+      }
+      
+      h1 {
+        position: relative;
+
+        font-size: 35px;
+        margin-top: -100px;
+        margin-left: 300px;
+        left: 350px;
+        font-family: "orbitron";
+        font-weight: 600;
+      }
+
+      p {
+        position: relative;
+
+        left: 250px;
+        background-color: transparent;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        line-height: 18.2px;
+        text-align: center;
+        margin-left: 450px;
+        top: 25px;
+        margin-bottom: 114.225px;
+        font-weight: 150;
+        color: #1f1f1f;
+      }
+
+
+      .button-email {
+        position: relative;
+        right: -750px;
+        margin-top: -100px;
+        margin-right: 500px;
+        border-radius: 0.5em;
+        font-family: "orbitron";
+        font-size: 13px;
+        border: 2px solid black;
+        padding: 0.1em 1.8em;
+      }
+
+      .button-join {
+        position: relative;
+        margin-top: -100px;
+        right: -260px;
+        border-radius: 0.5em;
+        border: 2px solid black;
+        background-color: black;
+        color: #ffff;
+        font-family: "orbitron";
+        padding: 0.1em;
+      }
+
+      .contact-heading {
+        position: relative;
+        right: -790px;
+        text-align: justify;
+        margin-right: 550px;
+        bottom: -98px;
+      }
+      .icons {
+        position: relative;
+        right: -450px;
+        text-align: center;
+        size: 5px;
+        bottom: -100px;
+      }
